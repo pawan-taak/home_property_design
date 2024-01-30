@@ -20,6 +20,7 @@ ul li {
     --light_yellow_color: #FFBB50;
     --white_color: #FFF;
     --light_black_color: #757575;
+    --blue_color:#3B3A5E;
 
 }
 
@@ -30,10 +31,11 @@ body {
 }
 
 .container {
-    width: 1920px;
+    max-width:1920px;
     width: 100%;
-    padding: 0 80px;
+    padding: 0 260px;
     margin: 0 auto;
+
 }
 
 /*common classes */
@@ -90,13 +92,49 @@ body {
 /* header section start */
 
 .header_back_section {
+    position: relative;
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
     max-width:1920px;
-    width: 100%;     
+    width: 100%;    
+    max-height: 721px;
+    height: 100%; 
     flex-shrink: 0;
     /* height: 1034px; */
 }
-.uppar_wind_Icon{
+.uppar_wind_Icon{     
     float: right;
+    box-sizing: border-box;
+    
 }
+.header_nav_list{
+    position: absolute;
+  display: flex;
+  gap: 242px;
+  margin-top: 98px;
+  padding: 44px 45px;
+  background-color: var(--white_color);
+}
+.header_logo{
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+.nav_bar_list{
+     display: flex;
+     gap: 66px;
+}
+.nav_bar_title{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+.nav_button{
+    padding: 23px 61px;
+    background-color: var(--blue_color);
+    color: var(--white_color);
+}
+ .nav_about_section{
+    position: absolute;
+    margin-top: 360px;
+ }
  
