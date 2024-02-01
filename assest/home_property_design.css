@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 a {
     text-decoration: none;
     color: black;
@@ -20,7 +23,7 @@ ul li {
     --light_yellow_color: #FFBB50;
     --white_color: #FFF;
     --light_black_color: #757575;
-    --blue_color:#3B3A5E;
+    --blue_color: #3B3A5E;
 
 }
 
@@ -31,11 +34,15 @@ body {
 }
 
 .container {
-    max-width:1920px;
+    max-width: 1920px;
     width: 100%;
-    padding: 0 260px;
+    padding: 0 0;
     margin: 0 auto;
 
+}
+
+.section {    
+    padding: 0 80px;
 }
 
 /*common classes */
@@ -94,47 +101,143 @@ body {
 .header_back_section {
     position: relative;
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
-    max-width:1920px;
-    width: 100%;    
-    max-height: 721px;
-    height: 100%; 
+    max-width: 1920px;
+    width: 100%;   
     flex-shrink: 0;
-    /* height: 1034px; */
+    height: 1034px;
 }
-.uppar_wind_Icon{     
-    float: right;
-    box-sizing: border-box;
-    
+ 
+
+.home_image {
+    position: relative;
+    padding: 320px 0 0 960px;
+    vertical-align: bottom;
 }
-.header_nav_list{
+
+.uppar_wind_Icon {
     position: absolute;
-  display: flex;
-  gap: 242px;
-  margin-top: 98px;
-  padding: 44px 45px;
-  background-color: var(--white_color);
+    padding-left: 950px;
 }
-.header_logo{
-  display: flex;
-  gap: 15px;
-  align-items: baseline;
+
+.lower_wind_Icon {
+    position: absolute;
+    padding-top: 346px;
 }
-.nav_bar_list{
-     display: flex;
-     gap: 66px;
+
+.header_nav_list {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    gap: 242px;
+    margin-top: 99px;
+    padding: 44px 45px;
+    background-color: var(--white_color);
 }
-.nav_bar_title{
-   display: flex;
-   gap: 30px;
-   align-items: center;
+
+.header_logo {
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
 }
-.nav_button{
+
+.nav_bar_list {
+    display: flex;
+    gap: 66px;
+}
+
+.nav_bar_title {
+    display: flex;
+    gap: 66px;
+    align-items: center;
+}
+
+.nav_button {
     padding: 23px 61px;
     background-color: var(--blue_color);
     color: var(--white_color);
 }
- .nav_about_section{
+
+.nav_about_section {
     position: absolute;
     margin-top: 360px;
- }
- 
+}
+
+
+.header_nav_text {
+    position: absolute;
+    z-index: 1;
+    padding-top: 411px;
+    max-width: 609px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.home_icon_section {
+    padding: 9px 14px;
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    background: linear-gradient(270deg, #F3D1C1 -3.75%, rgba(255, 178, 141, 0.00) 108.58%);
+}
+
+.home_heading_text {
+    max-width: 600px;
+    width: 100%;
+}
+
+.home_about_text {
+    color: var(--secondary_orange_color);
+}
+
+.home_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 252px;
+    width: 100%;
+    padding: 24px 30px;
+}
+
+/* section part start */
+.sell_part_text_bar {
+    max-width: 942px;
+    width: 100%;
+    border-radius: 5px;
+    background: #F2F2F2;
+    padding: 65px 72px;
+}
+.sell_part{
+    display: flex;
+    gap: 38px;
+    margin-top: 100px;
+    height: 450px;
+}
+.selling_heading{
+    padding: 15px 0 25px;
+    max-width: 530px;
+    width: 100%;
+}
+.selling_part_section {
+    display: flex;
+    gap: 11px;
+}
+.selling_info_bar{
+    color: var(--secondary_orange_color);
+}
+.one {
+    color: var(--light_yellow_color);
+}
+
+.button_click_section {
+    display: flex;
+    gap: 9px;
+}
+
+.radio_button {
+    padding-top: 25px;
+    display: flex;
+    gap: 30px;
+}
