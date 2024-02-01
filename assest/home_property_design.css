@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
+
+
 a {
     text-decoration: none;
     color: black;
@@ -41,8 +39,8 @@ body {
 
 }
 
-.section {    
-    padding: 0 80px;
+.section {
+    padding: 0 163px;
 }
 
 /*common classes */
@@ -98,34 +96,29 @@ body {
 
 /* header section start */
 
-.header_back_section {
-    position: relative;
+header {
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
-    max-width: 1920px;
-    width: 100%;   
-    flex-shrink: 0;
-    height: 1034px;
 }
- 
+
 
 .home_image {
-    position: relative;
-    padding: 320px 0 0 960px;
+    position: absolute;
     vertical-align: bottom;
+    z-index: 1;
 }
 
 .uppar_wind_Icon {
-    position: absolute;
-    padding-left: 950px;
+    float: right;
 }
 
-.lower_wind_Icon {
-    position: absolute;
-    padding-top: 346px;
-}
+
+.lower_wind_Icon {}
 
 .header_nav_list {
     position: absolute;
+}
+
+.header_nav_list {
     z-index: 1;
     display: flex;
     gap: 242px;
@@ -156,6 +149,7 @@ body {
     background-color: var(--blue_color);
     color: var(--white_color);
 }
+
 
 .nav_about_section {
     position: absolute;
@@ -201,7 +195,10 @@ body {
     padding: 24px 30px;
 }
 
+
 /* section part start */
+
+
 .sell_part_text_bar {
     max-width: 942px;
     width: 100%;
@@ -209,24 +206,34 @@ body {
     background: #F2F2F2;
     padding: 65px 72px;
 }
-.sell_part{
+
+.sell_part {
     display: flex;
     gap: 38px;
     margin-top: 100px;
     height: 450px;
 }
-.selling_heading{
+
+.selling_heading {
     padding: 15px 0 25px;
     max-width: 530px;
     width: 100%;
 }
+
 .selling_part_section {
     display: flex;
     gap: 11px;
 }
-.selling_info_bar{
+
+.selling_video_bar img {
+    max-width: 420px;
+    width: 100%;
+}
+
+.selling_info_bar {
     color: var(--secondary_orange_color);
 }
+
 .one {
     color: var(--light_yellow_color);
 }
@@ -240,4 +247,143 @@ body {
     padding-top: 25px;
     display: flex;
     gap: 30px;
+}
+
+
+/* Properties for sale in your favorite area */
+
+.hero_section {
+    background: #F5F1EF;
+    padding: 200px 0;
+    margin: 100px 0;
+}
+
+.property_heading_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+.sale_heading {
+    max-width: 609px;
+    width: 100%;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.all_property_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 38px;
+    row-gap: 40px;
+}
+
+
+.first_property_section {
+    max-width: 681px;
+    width: 100%;
+    padding: 47px 39px;
+    background-color: var(--white_color);
+}
+
+.area_sele_section {
+    color: var(--light_yellow_color);
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0 32px 0;
+}
+
+.sale_button {
+    max-width: 147px;
+    width: 100%;
+    padding: 16px 33px;
+    background-color: var(--light_yellow_color);
+}
+
+.sale_address {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin: 0 0 24px 0;
+}
+
+.about_sale_property {
+    display: flex;
+    gap: 25px;
+}
+
+.touch_icon {
+    text-align: center;
+}
+
+.touch_button {
+    padding: 23px 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:567px) {
+
+    .section {
+        padding: 0 50px;
+    }
+
+
+    .h_primary {
+        font-size: 40px;
+    }
+
+
+    .h_secondary {
+        font-size: 25px;
+    }
+
+    .xxl_heading {
+        font-size: 20px;
+    }
+
+    .xl_text {
+        font-size: 16px;
+    }
+
+    .xb_heading {
+        font-size: 12px;
+    }
+
+    .sm_heading {
+        font-size: 12px;
+    }
+
+
+    /* selling part */
+
+    .hero_section {
+        background: #F5F1EF;
+        padding: 100px 0;
+        margin: 50px 0;
+    }
+
+    .sell_part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale_propety_img {
+        max-width: 350px;
+        width: 100%;
+    }
+
+
+
 }
