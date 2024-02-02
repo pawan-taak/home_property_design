@@ -54,7 +54,7 @@ body {
 }
 
 
-.h_secondary {
+.h_secondary{
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -86,7 +86,7 @@ body {
     /* 23.7px */
 }
 
-.sm_heading {
+.sm_heading{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -97,29 +97,23 @@ body {
 /* header section start */
 
 header {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 1034px;
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
 }
 
 
 .home_image {
-    position: absolute;
     vertical-align: bottom;
     z-index: 1;
-}
-
-.uppar_wind_Icon {
-    float: right;
-}
-
-
-.lower_wind_Icon {}
+} 
 
 .header_nav_list {
+    max-width: 1382px;
+    width: 100%;
     position: absolute;
-}
-
-.header_nav_list {
-    z-index: 1;
     display: flex;
     gap: 242px;
     margin-top: 99px;
@@ -135,12 +129,12 @@ header {
 
 .nav_bar_list {
     display: flex;
-    gap: 66px;
+    gap: 60px;
 }
 
 .nav_bar_title {
     display: flex;
-    gap: 66px;
+    gap: 60px;
     align-items: center;
 }
 
@@ -194,7 +188,10 @@ header {
     width: 100%;
     padding: 24px 30px;
 }
-
+.home_section{
+    float: right;
+    padding-top: 60px;
+}
 
 /* section part start */
 
@@ -228,6 +225,7 @@ header {
 .selling_video_bar img {
     max-width: 420px;
     width: 100%;
+    height: 449px;
 }
 
 .selling_info_bar {
@@ -274,7 +272,7 @@ header {
 
 .all_property_card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 38px;
     row-gap: 40px;
@@ -323,6 +321,115 @@ header {
     text-align: center;
     margin-top: 100px;
 }
+
+/* Properties Of Real Estate Industries */
+
+.real_state_section {
+    display: grid;
+    grid-template-columns: 441px 444px 444px;
+    row-gap: 38px;
+    column-gap: 38px;
+}
+
+.second_real_state_text {
+    grid-column: 2/span 2;
+}
+
+.first_real_state_text {
+    max-width: 441px;
+    width: 100%;
+    padding: 48px 41px 81px 41px;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+
+
+}
+
+.real_statr_text {
+    max-width: 359px;
+    width: 100%;
+}
+
+.real_state_heading {
+    margin: 46px 0 12px 0;
+}
+
+.second_real_state_text {
+    display: flex;
+    max-width: 921px;
+    width: 100%;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+    padding: 48px 41px 81px 41px;
+}
+
+.real_home_img {
+    max-width: 483px;
+    width: 100%;
+}
+
+.trusted_img {
+    max-width: 203px;
+    width: 100%;
+}
+
+.loaction_img {
+    max-width: 374px;
+    width: 100%;
+}
+
+.lowest_commission_img {
+    max-width: 278px;
+    width: 100%;
+}
+
+/* for helping you find the right Propertys */
+
+.right_proerty_background{    
+      padding: 100px 0;
+   background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
+}
+.right_property_heading{
+    max-width: 550px;
+    width: 100%;
+}
+.right_property_section{
+    display: flex;
+     justify-content: space-between;
+}
+.about_right_property{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.right_property_img{
+     height: 427px;
+     vertical-align: bottom;
+}
+.right_button{
+    max-width: 189px;
+    width: 100%;
+    padding: 23px 26px;
+    border-radius: 5px;
+ background-color: var(--light_yellow_color); 
+ margin-top: 25px;
+ 
+}
+.right_property_info{
+    max-width: 577px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
