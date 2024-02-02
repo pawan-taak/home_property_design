@@ -426,6 +426,7 @@ footer{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
+}
 /* Properties for sale in your favorite area */
 
 .hero_section {
@@ -562,7 +563,8 @@ footer{
 
 /* for helping you find the right Propertys */
 
-.right_proerty_background{    
+.right_proerty_background{  
+    margin-top: 100px;  
       padding: 100px 0;
    background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
 }
@@ -601,12 +603,31 @@ footer{
     gap: 20px;
 }
 
+/* See How Can Help */
+.help_section{
 
-
-
-
-
-
+}
+.all_help_card{
+  display:flex;
+  gap: 77px;
+}
+.first_help_section{
+    position: relative;
+    max-width: 394px;
+    width: 100%;    
+    height: 292px;
+}
+.help_section_text{
+    position: absolute;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding-top: 160px;
+   text-align: center;
+}
+.help_img{
+    position: absolute;
+    padding-left: 130px;
 }
 
 
@@ -622,7 +643,6 @@ footer{
 
 
 @media(max-width:567px) {
-
 
     .section {
         padding: 0 50px;
