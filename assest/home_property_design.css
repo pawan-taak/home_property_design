@@ -13,6 +13,9 @@ a {
 ul li {
     list-style: none;
 }
+li{
+    list-style: none;
+}
 
 li {
     list-style: none;
@@ -35,7 +38,7 @@ body {
     font-family: "Source Sans 3";
 }
 
-.container {
+.container{
     max-width: 1920px;
     width: 100%;
     padding: 0 0;
@@ -61,7 +64,7 @@ body {
 }
 
 
-.h_secondary {
+.h_secondary{
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -93,7 +96,7 @@ body {
     /* 23.7px */
 }
 
-.sm_heading {
+.sm_heading{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -102,6 +105,9 @@ body {
 }
 
 /* header section start */
+.toggle-btn{
+    display: none;
+}
 
 header {
     height: 1034px;
@@ -256,8 +262,223 @@ width: 100%;
 }
 
 
+ 
 
-/* 
+/* Properties for sale in your favorite area */
+
+.hero_section {
+    background: #F5F1EF;
+    padding: 200px 0;
+    margin: 100px 0;
+}
+
+.property_heading_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+.sale_heading {
+    max-width: 609px;
+    width: 100%;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.all_property_card {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 38px;
+    row-gap: 40px;
+}
+
+
+.first_property_section {
+    max-width: 681px;
+    width: 100%;
+    padding: 47px 39px;
+    background-color: var(--white_color);
+}
+
+.area_sele_section {
+    color: var(--light_yellow_color);
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0 32px 0;
+}
+
+.sale_button {
+    max-width: 147px;
+    width: 100%;
+    padding: 16px 33px;
+    background-color: var(--light_yellow_color);
+}
+
+.sale_address {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin: 0 0 24px 0;
+    
+}
+
+.about_sale_property {
+    display: flex;
+    gap: 25px;
+}
+
+.touch_icon {
+    text-align: center;
+}
+
+.touch_button {
+    padding: 23px 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Properties Of Real Estate Industries */
+
+.real_state_section {
+    display: grid;
+    grid-template-columns: 441px 444px 444px;
+    row-gap: 38px;
+    column-gap: 38px;
+}
+
+.second_real_state_text {
+    grid-column: 2/span 2;
+}
+
+.first_real_state_text {
+    max-width: 441px;
+    width: 100%;
+    padding: 48px 41px 81px 41px;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+
+
+}
+
+.real_statr_text {
+    max-width: 359px;
+    width: 100%;
+}
+
+.real_state_heading {
+    margin: 46px 0 12px 0;
+}
+
+.second_real_state_text {
+    display: flex;
+    max-width: 921px;
+    width: 100%;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+    padding: 48px 41px 81px 41px;
+}
+
+.real_home_img {
+    max-width: 483px;
+    width: 100%;
+}
+
+.trusted_img {
+    max-width: 203px;
+    width: 100%;
+}
+
+.loaction_img {
+    max-width: 374px;
+    width: 100%;
+}
+
+.lowest_commission_img {
+    max-width: 278px;
+    width: 100%;
+}
+
+/* for helping you find the right Propertys */
+
+.right_proerty_background {
+    margin-top: 100px;
+    padding: 100px 0;
+    background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
+}
+
+.right_property_heading {
+    max-width: 550px;
+    width: 100%;
+}
+
+.right_property_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_right_property {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.right_property_img {
+    height: 427px;
+    vertical-align: bottom;
+}
+
+.right_button {
+    max-width: 189px;
+    width: 100%;
+    padding: 23px 26px;
+    border-radius: 5px;
+    background-color: var(--light_yellow_color);
+    margin-top: 25px;
+
+}
+
+.right_property_info {
+    max-width: 577px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* See How Can Help */
+
+.all_help_card {
+    display: flex;
+    gap: 77px;
+}
+
+.first_help_section {
+    position: relative;
+    max-width: 394px;
+    width: 100%;
+    height: 292px;
+}
+
+.help_section_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 160px;
+    text-align: center;
+}
+
+.help_img {
+    position: absolute;
+    padding-left: 130px;
+}
+
+.properland{
+    display: block;
+}
+
+
 /* Footer Work Start */
 .footer_background_section {
     position: relative;
@@ -449,261 +670,9 @@ Footer Work End footer {
     padding: 25px 0;
 }
 
-@media(max-width:1200px) {
-
-   .header_nav_list{
-    padding: 20px;
-   }
-   .nav_bar_title{
-    gap:20px
-   }
-   .nav_button{
-    padding: 13px 43px;
-   }
-   .header_logo{
-    flex-direction: column;
-    gap: 2px;
-   }
-   .xxl_heading{
-    font-size: 20px;
-   }
-
-}
-@media(max-width:576px) {
-
-    .footer_help_center {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-}
-
-/* Properties for sale in your favorite area */
-
-.hero_section {
-    background: #F5F1EF;
-    padding: 200px 0;
-    margin: 100px 0;
-}
-
-.property_heading_section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0 100px 0;
-}
-
-.sale_heading {
-    max-width: 609px;
-    width: 100%;
-    text-align: center;
-    padding: 16px 0 0 0;
-}
-
-.all_property_card {
-    display: grid;
-    grid-template-columns: 0fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    column-gap: 38px;
-    row-gap: 40px;
-}
 
 
-.first_property_section {
-    max-width: 681px;
-    width: 100%;
-    padding: 47px 39px;
-    background-color: var(--white_color);
-}
-
-.area_sele_section {
-    color: var(--light_yellow_color);
-    display: flex;
-    justify-content: space-between;
-    margin: 26px 0 32px 0;
-}
-
-.sale_button {
-    max-width: 147px;
-    width: 100%;
-    padding: 16px 33px;
-    background-color: var(--light_yellow_color);
-}
-
-.sale_address {
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
-    margin: 0 0 24px 0;
-}
-
-.about_sale_property {
-    display: flex;
-    gap: 25px;
-}
-
-.touch_icon {
-    text-align: center;
-}
-
-.touch_button {
-    padding: 23px 30px;
-    text-align: center;
-    margin-top: 100px;
-}
-
-/* Properties Of Real Estate Industries */
-
-.real_state_section {
-    display: grid;
-    grid-template-columns: 441px 444px 444px;
-    row-gap: 38px;
-    column-gap: 38px;
-}
-
-.second_real_state_text {
-    grid-column: 2/span 2;
-}
-
-.first_real_state_text {
-    max-width: 441px;
-    width: 100%;
-    padding: 48px 41px 81px 41px;
-    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
-
-
-}
-
-.real_statr_text {
-    max-width: 359px;
-    width: 100%;
-}
-
-.real_state_heading {
-    margin: 46px 0 12px 0;
-}
-
-.second_real_state_text {
-    display: flex;
-    max-width: 921px;
-    width: 100%;
-    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
-    padding: 48px 41px 81px 41px;
-}
-
-.real_home_img {
-    max-width: 483px;
-    width: 100%;
-}
-
-.trusted_img {
-    max-width: 203px;
-    width: 100%;
-}
-
-.loaction_img {
-    max-width: 374px;
-    width: 100%;
-}
-
-.lowest_commission_img {
-    max-width: 278px;
-    width: 100%;
-}
-
-/* for helping you find the right Propertys */
-
-.right_proerty_background {
-    margin-top: 100px;
-    padding: 100px 0;
-    background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
-}
-
-.right_property_heading {
-    max-width: 550px;
-    width: 100%;
-}
-
-.right_property_section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about_right_property {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
-.right_property_img {
-    height: 427px;
-    vertical-align: bottom;
-}
-
-.right_button {
-    max-width: 189px;
-    width: 100%;
-    padding: 23px 26px;
-    border-radius: 5px;
-    background-color: var(--light_yellow_color);
-    margin-top: 25px;
-
-}
-
-.right_property_info {
-    max-width: 577px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* See How Can Help */
-.help_section {}
-
-.all_help_card {
-    display: flex;
-    gap: 77px;
-}
-
-.first_help_section {
-    position: relative;
-    max-width: 394px;
-    width: 100%;
-    height: 292px;
-}
-
-.help_section_text {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding-top: 160px;
-    text-align: center;
-}
-
-.help_img {
-    position: absolute;
-    padding-left: 130px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:567px) {
+@media(max-width:768px) {
 
     .section {
         padding: 0 50px;
@@ -735,25 +704,103 @@ Footer Work End footer {
         font-size: 12px;
     }
 
+    /* header section */
+         .toggle-btn{
+            display: block;
+            cursor: pointer;
+         }
+         .nav_bar_list{
+            display:none;
+         }
+         .active {
+            display: block;
 
-    /* selling part */
-
-    .hero_section {
-        background: #F5F1EF;
-        padding: 100px 0;
-        margin: 50px 0;
+        }
+        .banner_image{
+            display: none;
+        }
+       .home_button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        max-width: 150px;
+        width: 100%;
+        padding: 10px 10px;
     }
-
     .sell_part {
+        display: flex;
+        gap: 38px;
+        margin-top: 100px;
+        height: 450px;
+    }
+    .all_property_card {
+        display: flex;
+        flex-direction: column;
+        column-gap: 38px;
+        row-gap: 40px;
+    }
+    .sale_propety_img{
+        width: 100%;
+    }
+    .about_sale_property {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .real_state_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second_real_state_text{
         display: flex;
         flex-direction: column;
     }
-
-    .sale_propety_img {
-        max-width: 350px;
-        width: 100%;
+    .about_right_property {
+        display: flex;
+        align-items: center;
+        
     }
-
-
-
+    
+    .right_property_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.right_property_img {
+    width: 100%;
+    margin-top: 25px;
+}
+ 
+.footer_subscribe_section {
+    display: flex;
+    flex-direction: column;
+}
+.footer_help_center {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+    .header_nav_list{
+     padding: 20px;
+    }
+    .nav_bar_title{
+     gap:20px
+    }
+    .nav_button{
+     padding: 13px 43px;
+    }
+    .header_logo{
+     flex-direction: column;
+     gap: 2px;
+    }
+    .xxl_heading{
+     font-size: 20px;
+    }
+ 
+ }
+
+
+ 
