@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
+
+
 a {
     text-decoration: none;
     color: black;
@@ -59,7 +57,7 @@ body {
 }
 
 
-.h_secondary {
+.h_secondary{
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -91,7 +89,7 @@ body {
     /* 23.7px */
 }
 
-.sm_heading {
+.sm_heading{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -101,35 +99,24 @@ body {
 
 /* header section start */
 
-.header_back_section {
+header {
     position: relative;
-    background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
     max-width: 1920px;
-    width: 100%;   
-    flex-shrink: 0;
+    width: 100%;
     height: 1034px;
+    background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
 }
- 
+
 
 .home_image {
-    position: relative;
-    padding: 320px 0 0 960px;
     vertical-align: bottom;
-}
-
-.uppar_wind_Icon {
-    position: absolute;
-    padding-left: 950px;
-}
-
-.lower_wind_Icon {
-    position: absolute;
-    padding-top: 346px;
-}
+    z-index: 1;
+} 
 
 .header_nav_list {
+    max-width: 1382px;
+    width: 100%;
     position: absolute;
-    z-index: 1;
     display: flex;
     gap: 242px;
     margin-top: 99px;
@@ -145,12 +132,12 @@ body {
 
 .nav_bar_list {
     display: flex;
-    gap: 66px;
+    gap: 60px;
 }
 
 .nav_bar_title {
     display: flex;
-    gap: 66px;
+    gap: 60px;
     align-items: center;
 }
 
@@ -159,6 +146,7 @@ body {
     background-color: var(--blue_color);
     color: var(--white_color);
 }
+
 
 .nav_about_section {
     position: absolute;
@@ -203,8 +191,14 @@ body {
     width: 100%;
     padding: 24px 30px;
 }
+.home_section{
+    float: right;
+    padding-top: 60px;
+}
 
 /* section part start */
+
+
 .sell_part_text_bar {
     max-width: 942px;
     width: 100%;
@@ -212,24 +206,35 @@ body {
     background: #F2F2F2;
     padding: 65px 72px;
 }
-.sell_part{
+
+.sell_part {
     display: flex;
     gap: 38px;
     margin-top: 100px;
     height: 450px;
 }
-.selling_heading{
+
+.selling_heading {
     padding: 15px 0 25px;
     max-width: 530px;
     width: 100%;
 }
+
 .selling_part_section {
     display: flex;
     gap: 11px;
 }
-.selling_info_bar{
+
+.selling_video_bar img {
+    max-width: 420px;
+    width: 100%;
+    height: 449px;
+}
+
+.selling_info_bar {
     color: var(--secondary_orange_color);
 }
+
 .one {
     color: var(--light_yellow_color);
 }
@@ -420,4 +425,249 @@ footer{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
+/* Properties for sale in your favorite area */
+
+.hero_section {
+    background: #F5F1EF;
+    padding: 200px 0;
+    margin: 100px 0;
+}
+
+.property_heading_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+
+.sale_heading {
+    max-width: 609px;
+    width: 100%;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.all_property_card {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 38px;
+    row-gap: 40px;
+}
+
+
+.first_property_section {
+    max-width: 681px;
+    width: 100%;
+    padding: 47px 39px;
+    background-color: var(--white_color);
+}
+
+.area_sele_section {
+    color: var(--light_yellow_color);
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0 32px 0;
+}
+
+.sale_button {
+    max-width: 147px;
+    width: 100%;
+    padding: 16px 33px;
+    background-color: var(--light_yellow_color);
+}
+
+.sale_address {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin: 0 0 24px 0;
+}
+
+.about_sale_property {
+    display: flex;
+    gap: 25px;
+}
+
+.touch_icon {
+    text-align: center;
+}
+
+.touch_button {
+    padding: 23px 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Properties Of Real Estate Industries */
+
+.real_state_section {
+    display: grid;
+    grid-template-columns: 441px 444px 444px;
+    row-gap: 38px;
+    column-gap: 38px;
+}
+
+.second_real_state_text {
+    grid-column: 2/span 2;
+}
+
+.first_real_state_text {
+    max-width: 441px;
+    width: 100%;
+    padding: 48px 41px 81px 41px;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+
+
+}
+
+.real_statr_text {
+    max-width: 359px;
+    width: 100%;
+}
+
+.real_state_heading {
+    margin: 46px 0 12px 0;
+}
+
+.second_real_state_text {
+    display: flex;
+    max-width: 921px;
+    width: 100%;
+    background: linear-gradient(142.75deg, #F3D1C1 2.44%, #FFEEE6 98.38%);
+    padding: 48px 41px 81px 41px;
+}
+
+.real_home_img {
+    max-width: 483px;
+    width: 100%;
+}
+
+.trusted_img {
+    max-width: 203px;
+    width: 100%;
+}
+
+.loaction_img {
+    max-width: 374px;
+    width: 100%;
+}
+
+.lowest_commission_img {
+    max-width: 278px;
+    width: 100%;
+}
+
+/* for helping you find the right Propertys */
+
+.right_proerty_background{    
+      padding: 100px 0;
+   background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
+}
+.right_property_heading{
+    max-width: 550px;
+    width: 100%;
+}
+.right_property_section{
+    display: flex;
+     justify-content: space-between;
+}
+.about_right_property{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.right_property_img{
+     height: 427px;
+     vertical-align: bottom;
+}
+.right_button{
+    max-width: 189px;
+    width: 100%;
+    padding: 23px 26px;
+    border-radius: 5px;
+ background-color: var(--light_yellow_color); 
+ margin-top: 25px;
+ 
+}
+.right_property_info{
+    max-width: 577px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:567px) {
+
+    .section {
+        padding: 0 50px;
+    }
+
+
+    .h_primary {
+        font-size: 40px;
+    }
+
+
+    .h_secondary {
+        font-size: 25px;
+    }
+
+    .xxl_heading {
+        font-size: 20px;
+    }
+
+    .xl_text {
+        font-size: 16px;
+    }
+
+    .xb_heading {
+        font-size: 12px;
+    }
+
+    .sm_heading {
+        font-size: 12px;
+    }
+
+
+    /* selling part */
+
+    .hero_section {
+        background: #F5F1EF;
+        padding: 100px 0;
+        margin: 50px 0;
+    }
+
+    .sell_part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale_propety_img {
+        max-width: 350px;
+        width: 100%;
+    }
+
+
+
 }
