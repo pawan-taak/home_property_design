@@ -14,10 +14,6 @@ ul li {
     list-style: none;
 }
 
-li {
-    list-style: none;
-}
-
 :root {
     --primary_blue_color: #3B3A5D;
     --secondary_orange_color: #B16642;
@@ -44,10 +40,7 @@ body {
 }
 
 .section {
-    max-width: 1320px;
-    width: 100%;
-    padding: 0 150;
-    margin: 0 auto
+    padding: 0 163px;
 }
 
 /*common classes */
@@ -104,7 +97,6 @@ body {
 /* header section start */
 
 header {
-    height: 1034px;
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
 }
 
@@ -114,12 +106,15 @@ header {
     z-index: 1;
 }
 
+.header_nav_list {}
+
 .header_nav_list {
+    position: absolute;
     display: flex;
-    justify-content: space-between;
+    gap: 242px;
+    margin-top: 99px;
     padding: 44px 45px;
     background-color: var(--white_color);
-    align-items: center;
 }
 
 .header_logo {
@@ -130,12 +125,12 @@ header {
 
 .nav_bar_list {
     display: flex;
-    gap: 60px;
+    gap: 66px;
 }
 
 .nav_bar_title {
     display: flex;
-    gap: 60px;
+    gap: 66px;
     align-items: center;
 }
 
@@ -153,9 +148,11 @@ header {
 
 
 .header_nav_text {
-max-width: 554px;
-width: 100%;
-    padding-top: 140px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 411px;
+    max-width: 609px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 38px;
@@ -170,20 +167,12 @@ width: 100%;
     background: linear-gradient(270deg, #F3D1C1 -3.75%, rgba(255, 178, 141, 0.00) 108.58%);
 }
 
-.banner_image{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .home_heading_text {
     max-width: 600px;
     width: 100%;
 }
 
 .home_about_text {
-    max-width: 566px;
-    width: 100%;
     color: var(--secondary_orange_color);
 }
 
@@ -196,10 +185,6 @@ width: 100%;
     padding: 24px 30px;
 }
 
-.home_section {
-    float: right;
-    padding-top: 60px;
-}
 
 /* section part start */
 
@@ -233,7 +218,6 @@ width: 100%;
 .selling_video_bar img {
     max-width: 420px;
     width: 100%;
-    height: 449px;
 }
 
 .selling_info_bar {
@@ -255,228 +239,6 @@ width: 100%;
     gap: 30px;
 }
 
-
-
-/* 
-/* Footer Work Start */
-.footer_background_section {
-    position: relative;
-    background-color: #ead6d6;
-}
-
-.zigzag_lines_right {
-    float: right;
-}
-
-.zigzag_lines_left {
-    float: left;
-}
-
-.home {
-    display: flex;
-    gap: 15px;
-}
-
-.footer_colors {
-    color: #3B3A5D;
-}
-
-.footer_social {
-    display: flex;
-    gap: 30px;
-    padding: 25px 0;
-}
-
-.about_heading {
-    color: #B16642;
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 118.5%;
-    width: 579px
-}
-
-.footer_subscribe_section {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 155px;
-}
-
-.help_center {
-    /* position: absolute; */
-    display: flex;
-    gap: 100px;
-    padding: 70px 0;
-}
-
-.footer_about_help {
-    padding: 20px 0;
-
-}
-
-.hovereffect {
-    color: #B16642;
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 178%;
-}
-
-.hovereffect:hover {
-    color: black;
-    font-size: 20px;
-    text-decoration: underline;
-
-    font-weight: 400;
-
-}
-
-.contact_withus {
-    width: 495px;
-    border: 2px solid black;
-}
-
-.contact_outside {
-    background-color: var(--light_yellow_color);
-    border-radius: 5px;
-    margin: 70px 0;
-}
-
-.contact_inside {
-    margin: 47px 45px;
-
-}
-
-.xl_text {
-    color: var(--primary_blue_color);
-
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 118.5%;
-}
-
-.footer_help_center {
-    display: flex;
-    gap: 155px;
-}
-
-.kufam {
-    font-family: 'Kufam'
-}
-
-.contact_inside-address {
-    color: var(--primary_blue_color);
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 178%;
-}
-
-.address {
-    display: flex;
-    gap: 15px;
-    padding: 10px 0;
-    margin: 10px 0;
-}
-
-.hr {
-    padding: 50px 0;
-}
-
-.footer_copyright {
-    color: #3B3A5D;
-    font-family: "Source Sans 3";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 118.5%;
-    text-align: center;
-
-}
-
-.mail {
-    border: 1px solid #C0C0C0;
-    ;
-    padding: 25px 151px 24px 27px;
-    border-radius: 5px;
-    border: 1px solid #C0C0C0;
-    background: #FFF;
-}
-
-.footer_mail_section {
-    border-left: 2px solid grey;
-    padding: 0 130px 70px;
-}
-
-.footer_mail_side {
-    display: flex;
-    gap: 25px;
-    padding: 15px 0;
-
-}
-
-.footer_button {
-    padding: 23px 39px;
-    border-radius: 5px;
-    background-color: #3B3A5D;
-}
-
-
-Footer Work End footer {
-    background-color: var(--light_yellow_color);
-}
-
-.zigzag_lines_right {
-    float: right;
-}
-
-.zigzag_lines_left {
-    float: left;
-}
-
-.home {
-    display: flex;
-    gap: 15px;
-}
-
-.footer_social {
-    display: flex;
-    gap: 25px;
-    padding: 25px 0;
-}
-
-@media(max-width:1200px) {
-
-   .header_nav_list{
-    padding: 20px;
-   }
-   .nav_bar_title{
-    gap:20px
-   }
-   .nav_button{
-    padding: 13px 43px;
-   }
-   .header_logo{
-    flex-direction: column;
-    gap: 2px;
-   }
-   .xxl_heading{
-    font-size: 20px;
-   }
-
-}
-@media(max-width:576px) {
-
-    .footer_help_center {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-}
 
 /* Properties for sale in your favorite area */
 
@@ -610,94 +372,6 @@ Footer Work End footer {
     max-width: 278px;
     width: 100%;
 }
-
-/* for helping you find the right Propertys */
-
-.right_proerty_background {
-    margin-top: 100px;
-    padding: 100px 0;
-    background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
-}
-
-.right_property_heading {
-    max-width: 550px;
-    width: 100%;
-}
-
-.right_property_section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about_right_property {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
-.right_property_img {
-    height: 427px;
-    vertical-align: bottom;
-}
-
-.right_button {
-    max-width: 189px;
-    width: 100%;
-    padding: 23px 26px;
-    border-radius: 5px;
-    background-color: var(--light_yellow_color);
-    margin-top: 25px;
-
-}
-
-.right_property_info {
-    max-width: 577px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* See How Can Help */
-.help_section {}
-
-.all_help_card {
-    display: flex;
-    gap: 77px;
-}
-
-.first_help_section {
-    position: relative;
-    max-width: 394px;
-    width: 100%;
-    height: 292px;
-}
-
-.help_section_text {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding-top: 160px;
-    text-align: center;
-}
-
-.help_img {
-    position: absolute;
-    padding-left: 130px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
