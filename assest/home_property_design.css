@@ -94,6 +94,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 118.5%;
+    white-space: nowrap;
     /* 23.7px */
 }
 
@@ -258,6 +259,11 @@ header {
         position: relative;
         background-color:#ead6d6 ;
     } 
+    .footer_button {
+        padding: 23px 39px;
+        border-radius: 5px;
+        background-color: #3B3A5D;
+    }
     .zigzag_lines_right{
         float:right;
     }
@@ -391,19 +397,11 @@ header {
             padding: 15px 0;
            
         }
-    button{
-        padding: 23px 39px;
-        border-radius: 5px;
-        background-color: #3B3A5D;
-    }
+   
     
 
-Footer Work End 
+/* Footer Work End  */
 
-
-footer{
-    background-color:var(--light_yellow_color);
-}
 .zigzag_lines_right{
     float: right;
 }
@@ -640,7 +638,9 @@ footer{
 }
 
 
-
+.utility{
+    white-space: nowrap;
+}
 
 @media(max-width:567px) {
 
@@ -697,9 +697,7 @@ footer{
     .hr1{
         display: none;
     }
-    .utility{
-        white-space: nowrap;
-    }
+    
     .properland{
         display: none;
     }
