@@ -764,6 +764,35 @@ header {
        align-items: center;
     }
 
+    .customers_back_section{
+        margin: 50px 0;
+        padding: 50px 0;
+    }
+  
+    .all_customer_review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .customer_satisfaction {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 30px;
+        justify-content: space-around;
+    
+    }
+
+
+
+
+
+
+
+
+
 
 
     .footer_subscribe_section {
