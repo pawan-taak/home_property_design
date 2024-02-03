@@ -557,10 +557,15 @@ header {
     color: #0e0b64;
 }
  
+/* 
+ Customer satisfaction and property sale */
 
-
-
-
+.customer_satisfaction{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 
 
 
