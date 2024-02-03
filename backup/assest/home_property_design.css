@@ -13,9 +13,12 @@ a {
 ul li {
     list-style: none;
 }
+<<<<<<< HEAD
+=======
 li{
     list-style: none;
 }
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 
 :root {
     --primary_blue_color: #3B3A5D;
@@ -34,7 +37,11 @@ body {
     font-family: "Source Sans 3";
 }
 
+<<<<<<< HEAD
+.container {
+=======
 .container{
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     max-width: 1920px;
     width: 100%;
     padding: 0 0;
@@ -42,8 +49,13 @@ body {
 
 }
 
+<<<<<<< HEAD
+.section {
+    padding: 0 163px;
+=======
 .section{    
     padding: 0 260px;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 }
 
 /*common classes */
@@ -57,7 +69,11 @@ body {
 }
 
 
+<<<<<<< HEAD
+.h_secondary {
+=======
 .h_secondary{
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -89,7 +105,11 @@ body {
     /* 23.7px */
 }
 
+<<<<<<< HEAD
+.sm_heading {
+=======
 .sm_heading{
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -100,10 +120,13 @@ body {
 /* header section start */
 
 header {
+<<<<<<< HEAD
+=======
     position: relative;
     max-width: 1920px;
     width: 100%;
     height: 1034px;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
 }
 
@@ -111,11 +134,19 @@ header {
 .home_image {
     vertical-align: bottom;
     z-index: 1;
+<<<<<<< HEAD
+}
+
+.header_nav_list {}
+
+.header_nav_list {
+=======
 } 
 
 .header_nav_list {
     max-width: 1382px;
     width: 100%;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     position: absolute;
     display: flex;
     gap: 242px;
@@ -132,12 +163,20 @@ header {
 
 .nav_bar_list {
     display: flex;
+<<<<<<< HEAD
+    gap: 66px;
+=======
     gap: 60px;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 }
 
 .nav_bar_title {
     display: flex;
+<<<<<<< HEAD
+    gap: 66px;
+=======
     gap: 60px;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
     align-items: center;
 }
 
@@ -191,10 +230,14 @@ header {
     width: 100%;
     padding: 24px 30px;
 }
+<<<<<<< HEAD
+
+=======
 .home_section{
     float: right;
     padding-top: 60px;
 }
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 
 /* section part start */
 
@@ -228,7 +271,10 @@ header {
 .selling_video_bar img {
     max-width: 420px;
     width: 100%;
+<<<<<<< HEAD
+=======
     height: 449px;
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 }
 
 .selling_info_bar {
@@ -251,6 +297,8 @@ header {
 }
 
 
+<<<<<<< HEAD
+=======
 
 /* 
 /* Footer Work Start */
@@ -427,6 +475,7 @@ footer{
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 /* Properties for sale in your favorite area */
 
 .hero_section {
@@ -484,7 +533,10 @@ footer{
     flex-direction: column;
     gap: 13px;
     margin: 0 0 24px 0;
+<<<<<<< HEAD
+=======
     
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 }
 
 .about_sale_property {
@@ -561,6 +613,8 @@ footer{
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
 /* for helping you find the right Propertys */
 
 .right_proerty_background{  
@@ -638,6 +692,7 @@ footer{
 .properland{
     display: block;
 }
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 
 
 
@@ -693,6 +748,8 @@ footer{
         width: 100%;
     }
 
+<<<<<<< HEAD
+=======
     /* Footer responsive */
     .hr1{
         display: none;
@@ -703,6 +760,7 @@ footer{
     .properland{
         display: none;
     }
+>>>>>>> 60150683da668381d4596aa8885b391938fb3914
 
 
 }

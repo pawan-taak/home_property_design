@@ -13,7 +13,12 @@ a {
 ul li {
     list-style: none;
 }
-li{
+
+li {
+    list-style: none;
+}
+
+li {
     list-style: none;
 }
 
@@ -34,7 +39,7 @@ body {
     font-family: "Source Sans 3";
 }
 
-.container{
+.container {
     max-width: 1920px;
     width: 100%;
     padding: 0 0;
@@ -42,8 +47,11 @@ body {
 
 }
 
-.section{    
-    padding: 0 260px;
+.section {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 150;
+    margin: 0 auto
 }
 
 /*common classes */
@@ -57,7 +65,7 @@ body {
 }
 
 
-.h_secondary{
+.h_secondary {
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -89,40 +97,36 @@ body {
     /* 23.7px */
 }
 
-.sm_heading{
+.sm_heading {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 118.5%;
-    white-space: nowrap;
     /* 23.7px */
 }
 
 /* header section start */
+.toggle-btn {
+    display: none;
+}
 
 header {
-    position: relative;
-    max-width: 1920px;
-    width: 100%;
     height: 1034px;
     background: linear-gradient(108deg, #FFF6F2 16.64%, #EEC1AC 101.15%);
 }
 
-
 .home_image {
     vertical-align: bottom;
     z-index: 1;
-} 
+}
 
 .header_nav_list {
-    max-width: 1382px;
-    width: 100%;
-    position: absolute;
+    display: block;
     display: flex;
-    gap: 242px;
-    margin-top: 99px;
+    justify-content: space-between;
     padding: 44px 45px;
     background-color: var(--white_color);
+    align-items: center;
 }
 
 .header_logo {
@@ -156,11 +160,9 @@ header {
 
 
 .header_nav_text {
-    position: absolute;
-    z-index: 1;
-    padding-top: 411px;
-    max-width: 609px;
+    max-width: 554px;
     width: 100%;
+    padding-top: 140px;
     display: flex;
     flex-direction: column;
     gap: 38px;
@@ -175,12 +177,20 @@ header {
     background: linear-gradient(270deg, #F3D1C1 -3.75%, rgba(255, 178, 141, 0.00) 108.58%);
 }
 
+.banner_image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .home_heading_text {
     max-width: 600px;
     width: 100%;
 }
 
 .home_about_text {
+    max-width: 566px;
+    width: 100%;
     color: var(--secondary_orange_color);
 }
 
@@ -192,7 +202,8 @@ header {
     width: 100%;
     padding: 24px 30px;
 }
-.home_section{
+
+.home_section {
     float: right;
     padding-top: 60px;
 }
@@ -253,178 +264,7 @@ header {
 
 
 
-/* 
-/* Footer Work Start */
-   .footer_background_section{
-        position: relative;
-        background-color:#ead6d6 ;
-    } 
-    .footer_button {
-        padding: 23px 39px;
-        border-radius: 5px;
-        background-color: #3B3A5D;
-    }
-    .zigzag_lines_right{
-        float:right;
-    }
-    .zigzag_lines_left{
-        float: left;
-    }  
-    .home{
-        display: flex;
-        gap: 15px;
-    }
-    .footer_colors{
-        color: #3B3A5D;
-    }
-    .footer_social{
-        display: flex;
-        gap: 30px;
-        padding: 25px 0;
-    }
-    .about_heading{
-        color: #B16642;
-        font-family: "Source Sans 3";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 118.5%;
-        width: 579px 
-    }
-    
-    .footer_subscribe_section{
-        display: grid;
-        grid-template-columns:  auto auto;
-        gap: 155px;
-    }
-    .help_center{
-        /* position: absolute; */
-         display: flex;
-        gap: 100px;
-        padding: 70px 0;
-    }
-    .footer_about_help{
-        padding: 20px 0;
-        
-    }
-    .hovereffect{
-        color: #B16642;
-        font-family: "Source Sans 3";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 178%; 
-    }
-    .hovereffect:hover{
-        color: black;
-        font-size:20px ;
-        text-decoration: underline;
-        
-     font-weight:400 ;
-      
- }
-    .contact_withus{
-        width: 495px;
-        border: 2px solid black;
-    }
-    .contact_outside{
-        background-color: var(--light_yellow_color);
-        border-radius: 5px;
-        margin: 70px 0;
-    }
-    .contact_inside{
-        margin: 47px 45px;
-    
-    }
-    .xl_text{
-        color: var(--primary_blue_color);
-    
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 118.5%; 
-     }
-    .footer_help_center{
-        display: flex;
-        gap: 155px;
-    }
-    .kufam{
-        font-family: 'Kufam'
-    }
-    .contact_inside-address{
-        color: var(--primary_blue_color);
-        font-family: "Source Sans 3";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 178%;
-    }
-    .address{
-        display: flex;
-        gap: 15px;
-        padding: 10px 0;
-         margin: 10px 0; 
-         align-items: center;
-    }
-    .hr{
-        padding: 50px 0;
-    }
-    .footer_copyright{
-        color: #3B3A5D;
-        font-family: "Source Sans 3";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 118.5%;
-        text-align: center;
-        
-    }
 
-        .mail{
-            border:1px solid #C0C0C0;;
-            padding: 25px 151px 24px 27px;
-            border-radius: 5px;
-            border: 1px solid #C0C0C0;
-            background: #FFF;    
-         }
-         .footer_mail_section{
-            border-left:2px solid grey ;
-            padding: 0 130px 70px;
-         }
-        .footer_mail_side{
-            display: flex;
-            gap: 25px;
-            padding: 15px 0;
-           
-        }
-   
-    
-
-/* Footer Work End  */
-
-.zigzag_lines_right{
-    float: right;
-}
-.zigzag_lines_left{
-    float: left;
-}
-.home{
-    display: flex;
-    gap: 15px;
-}
-.footer_social{
-    display: flex;
-    gap: 25px;
-    padding: 25px 0;
-}
-
-@media(max-width:576px){
-
-    .footer_help_center{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-}
 /* Properties for sale in your favorite area */
 
 .hero_section {
@@ -482,7 +322,7 @@ header {
     flex-direction: column;
     gap: 13px;
     margin: 0 0 24px 0;
-    
+
 }
 
 .about_sale_property {
@@ -501,6 +341,18 @@ header {
 }
 
 /* Properties Of Real Estate Industries */
+.real_state_property{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+.real_heading{
+    max-width: 575px;
+    width: 100%;
+    margin-bottom: 60px;
+}
 
 .real_state_section {
     display: grid;
@@ -561,39 +413,45 @@ header {
 
 /* for helping you find the right Propertys */
 
-.right_proerty_background{  
-    margin-top: 100px;  
-      padding: 100px 0;
-   background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
+.right_proerty_background {
+    margin-top: 100px;
+    padding: 100px 0;
+    background: linear-gradient(180deg, #DCDCDC 0%, rgba(255, 240, 233, 0) 100%);
 }
-.right_property_heading{
+
+.right_property_heading {
     max-width: 550px;
     width: 100%;
 }
-.right_property_section{
+
+.right_property_section {
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
 }
-.about_right_property{
+
+.about_right_property {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
-.right_property_img{
-     height: 427px;
-     vertical-align: bottom;
+
+.right_property_img {
+    height: 427px;
+    vertical-align: bottom;
 }
-.right_button{
+
+.right_button {
     max-width: 189px;
     width: 100%;
     padding: 23px 26px;
     border-radius: 5px;
- background-color: var(--light_yellow_color); 
- margin-top: 25px;
- 
+    background-color: var(--light_yellow_color);
+    margin-top: 25px;
+
 }
-.right_property_info{
+
+.right_property_info {
     max-width: 577px;
     width: 100%;
     display: flex;
@@ -602,47 +460,62 @@ header {
 }
 
 /* See How Can Help */
-.help_section{
+.help_heading_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 60px;
+}
 
+.all_help_card {
+    display: flex;
+    gap: 77px;
 }
-.all_help_card{
-  display:flex;
-  gap: 77px;
+
+.help_section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
-.first_help_section{
+
+.first_help_section {
     position: relative;
     max-width: 394px;
-    width: 100%;    
+    width: 100%;
     height: 292px;
 }
-.help_section_text{
+
+.help_section_text {
     position: absolute;
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   padding-top: 160px;
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 160px;
+    text-align: center;
 }
-.help_img{
+
+.help_img {
     position: absolute;
     padding-left: 130px;
 }
 
-
-
-
-
-
-.properland{
+.properland {
     display: block;
 }
 
-
-.utility{
-    white-space: nowrap;
+.bottom_help_section {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
-@media(max-width:567px) {
+
+ 
+
+
+
+@media(max-width:768px) {
 
     .section {
         padding: 0 50px;
@@ -674,33 +547,133 @@ header {
         font-size: 12px;
     }
 
+    /* header section */
+    .toggle-btn {
+        display: block;
+        cursor: pointer;
+    }
 
-    /* selling part */
+    .nav_bar_list {
+        display: none;
+    }
 
-    .hero_section {
-        background: #F5F1EF;
-        padding: 100px 0;
-        margin: 50px 0;
+    .banner_image {
+        display: none;
+    }
+
+    .home_button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        max-width: 150px;
+        width: 100%;
+        padding: 10px 10px;
     }
 
     .sell_part {
         display: flex;
+        gap: 38px;
+        margin-top: 100px;
+        height: 450px;
+    }
+
+    .all_property_card {
+        display: flex;
         flex-direction: column;
+        column-gap: 38px;
+        row-gap: 40px;
     }
 
     .sale_propety_img {
-        max-width: 350px;
         width: 100%;
     }
 
-    /* Footer responsive */
-    .hr1{
-        display: none;
-    }
-    
-    .properland{
-        display: none;
+    .about_sale_property {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
     }
 
+    .real_state_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second_real_state_text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_right_property {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .right_property_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right_property_img {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .all_help_card {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .bottom_help_section {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .footer_subscribe_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_help_center {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .header_nav_list {
+        padding: 20px;
+    }
+
+    .nav_bar_title {
+        gap: 20px
+    }
+
+    .nav_button {
+        padding: 13px 43px;
+    }
+
+    .header_logo {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .xxl_heading {
+        font-size: 20px;
+    }
 
 }

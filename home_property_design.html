@@ -24,32 +24,44 @@
     <header>
         <div class="container">
             <div class="section">
-                      <div class="header_nav_list">
-                        <div class="header_logo">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="81" height="61" viewBox="0 0 81 61" fill="none">
-                                <path d="M80.9999 22.7651L58.6696 0.5L0 60.2669H80.9999V22.7651Z" fill="#0A0B3B" />
-                                <path d="M80.9997 35.4516L58.6693 13.1865L11.4512 60.2668H80.9997V35.4516Z"
-                                    fill="#FFBB50" />
-                                <path d="M57.8932 32.8506H51.5312V39.1939H57.8932V32.8506Z" fill="white" />
-                                <path d="M66.1647 32.8506H59.8027V39.1939H66.1647V32.8506Z" fill="white" />
-                                <path d="M57.8932 41.0977H51.5312V47.441H57.8932V41.0977Z" fill="white" />
-                                <path d="M66.1637 41.0977H59.8018V47.441H66.1637V41.0977Z" fill="white" />
-                                <path d="M32.1607 13.1865L32.4453 37.21L22.2982 37.2912L22.2662 13.1865L32.1607 13.1865Z"
-                                    fill="#0A0B3B" />
-                            </svg>
-                            <h3 class="xxl_heading">ProperLand</h3>
-                        </div>
-                        <div class="nav_bar_list">
-                            <div class="nav_bar_title sm_heading">
-                                <a href="#">Home</a>
-                                <a href="#">about</a>
-                                <a href="#">Properties</a>
-                                <a href="#">Pages</a>
-                                <a href="#">blogs</a>
-                            </div>
-                            <button class="nav_button xb_heading">Contact</button>
-                        </div>
-                      </div>
+                <div class="header_nav_list">
+                    <div class="header_logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="81" height="61" viewBox="0 0 81 61" fill="none">
+                            <path d="M80.9999 22.7651L58.6696 0.5L0 60.2669H80.9999V22.7651Z" fill="#0A0B3B" />
+                            <path d="M80.9997 35.4516L58.6693 13.1865L11.4512 60.2668H80.9997V35.4516Z"
+                                fill="#FFBB50" />
+                            <path d="M57.8932 32.8506H51.5312V39.1939H57.8932V32.8506Z" fill="white" />
+                            <path d="M66.1647 32.8506H59.8027V39.1939H66.1647V32.8506Z" fill="white" />
+                            <path d="M57.8932 41.0977H51.5312V47.441H57.8932V41.0977Z" fill="white" />
+                            <path d="M66.1637 41.0977H59.8018V47.441H66.1637V41.0977Z" fill="white" />
+                            <path d="M32.1607 13.1865L32.4453 37.21L22.2982 37.2912L22.2662 13.1865L32.1607 13.1865Z"
+                                fill="#0A0B3B" />
+                        </svg>
+                        <h3 class="xxl_heading">ProperLand</h3>
+                    </div>
+                    <div class="nav_bar_list" id="toggleContent">
+                        <ul class="nav_bar_title sm_heading">
+                            <li>Home</li>
+                            <li>about</li>
+                            <li>Properties</li>
+                            <li>Pages</li>
+                            <li>blogs</li>
+                        </ul>
+                        <button class="nav_button xb_heading">Contact</button>
+                    </div>
+
+                    <span class="toggle-btn" id="toggleButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+
+                </div>
 
                 <div class="header_nav_text">
                     <div class="home_icon_section">
@@ -269,8 +281,14 @@
 
     <div class="container">
         <div class="section">
-            <div class="real_state_section">
 
+            <div class="real_state_property">
+                <p class="sm_heading">03 Why Choose</p>
+                <h2 class="real_heading h_secondary">Why Choose Our Properties
+                    Of Real Estate Industries</h2>
+            </div>
+
+            <div class="real_state_section">
 
                 <div class="first_real_state_text">
                     <img src="./assest/img/real_state/pig_img.png" alt="#">
@@ -358,8 +376,13 @@
 
     <div class="container">
         <div class="section">
-            <div class="help_section">
 
+            <div class="help_heading_section">
+                <p class="sm_heading">05 Services</p>
+                <h2 class="help_heading h_secondary">See How Can Help</h2>
+            </div>
+
+            <div class="help_section">
                 <div class="all_help_card">
                     <div class="first_help_section">
                         <img src="./assest/img/help_section/Icon.png" alt="" class="help_img">
@@ -374,7 +397,7 @@
                         <img src="./assest/img/help_section/Icon.png" alt="" class="help_img">
                         <div class="help_section_text">
                             <p class="xl_text">Sale a Home</p>
-                            <p class="sm_heading">Frameworks to provide a robust synopsis for high level overviews. 
+                            <p class="sm_heading">Frameworks to provide a robust synopsis for high level overviews.
                                 approaches lverall, Organically grow the holistic.</p>
                         </div>
                     </div>
@@ -383,18 +406,20 @@
                         <img src="./assest/img/help_section/Icon.png" alt="" class="help_img">
                         <div class="help_section_text">
                             <p class="xl_text">Buy a Home</p>
-                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
+                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level
+                                overviews.
                                 approaches lverall value proposition.</p>
                         </div>
                     </div>
                 </div>
-                  
-                <div>
+
+                <div class="bottom_help_section">
                     <div class="first_help_section">
                         <img src="./assest/img/help_section/Icon.png" alt="" class="help_img">
                         <div class="help_section_text">
                             <p class="xl_text">Experience Agent</p>
-                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
+                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level
+                                overviews.
                                 approaches lverall value proposition.</p>
                         </div>
                     </div>
@@ -403,17 +428,39 @@
                         <img src="./assest/img/help_section/Icon.png" alt="" class="help_img">
                         <div class="help_section_text">
                             <p class="xl_text">Member Support</p>
-                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
+                            <p class="sm_heading">Leverage agile frameworks to provide a robust synopsis for high level
+                                overviews.
                                 approaches lverall value proposition.</p>
                         </div>
                     </div>
-
                 </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- What our customers say about us -->
+
+    <div class="customers_back_section">
+        <div class="container">
+            <div class="section">
 
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -450,8 +497,8 @@
                             <div class="footer_yourtube"><img src="./assest/icon/footer_icon/Youtube.png" alt=""></div>
                         </div>
                     </div>
-                    
-                  <div class="footer_left_side">
+
+                    <div class="footer_left_side">
                         <div class="footer_mail_section">
                             <h2 class="footer_colors h_secondary">Get a free estimate</h2>
                             <div class="about_heading">Leverage agile frameworks to provide a robust synopsis for high
@@ -467,7 +514,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="hr1"><hr></div>
+                <div class="hr1">
+                    <hr>
+                </div>
                 <div class="footer_help_center">
                     <div class="help_center">
                         <div>
@@ -533,30 +582,30 @@
                 </div>
                 <div class="footer_copyright">
                     <p class="copyright">Copyright © Properland | Designed by VictorFlow - Powered by Webflow.</p>
-                </div> 
+                </div>
             </div>
         </div>
     </footer>
 
 
+    <script>
+
+        const toggleButton = document.getElementById('toggleButton');
+        const toggleContent = document.getElementById('toggleContent');
+
+
+        toggleButton.addEventListener('click', function () {
+
+            if (toggleContent.style.display === 'none') {
+                toggleContent.style.display = 'block';
+            } else {
+                toggleContent.style.display = 'none';
+            }
+        });
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </script>
 
 
 </body>
