@@ -109,6 +109,9 @@ body {
 .toggle-btn {
     display: none;
 }
+.closebtn{
+    display: none;
+}
 
 header {
     height: 1034px;
@@ -510,8 +513,55 @@ header {
     justify-content: center;
 }
 
-
+/* What our customers say about us */
+.about_customers_section{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.customers_back_section{
+    margin: 100px 0;
+    background: #F3E8E2;
+   padding: 193px 0;
+}
+.customer_massage{
+    max-width: 460px;
+    width:100%;    
+    padding: 52px 46px 52px 46px;
+    border-radius: 70px 70px 70px 0px;
+    gap: 10px;
+    background: linear-gradient(232.29deg, #ECC8B7 9.23%, #F4DBCE 94.02%);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.customer_name_card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.all_customer_review{
+    display: flex;
+    gap: 40px;
+    margin-left: 49px;
+}
+.between_text{
+    color: #A7542A;
+}
+.blue_text{
+    color: #0e0b64;
+}
  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -548,14 +598,85 @@ header {
     }
 
     /* header section */
-    .toggle-btn {
-        display: block;
-        cursor: pointer;
-    }
 
+    /* toggle section */
+          
     .nav_bar_list {
-        display: none;
-    }
+        position: absolute;
+        height: 100%;
+        width: 0;    
+        top: 0;
+        right: 0;
+        background-color:white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 1050;
+        padding-top: 60px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .nav_bar_list li{
+        text-align: center;  
+        padding-bottom: 8px;
+        padding-top: 8px;
+        text-decoration: none;
+        /* font-size: 30px; */
+        color:black;
+        display: block;
+        transition: 0.3s;
+        list-style: none;
+      }
+      .nav_bar_title{
+        display: flex;
+        flex-direction: column;
+         
+      }
+      
+      .nav_bar_list li:hover {
+        color:var(--secondary_orange_color);
+      }
+      
+      .nav_bar_list .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+       #toggleButton{       
+       
+        float: right;
+        display: block;
+        
+       }
+       .button_class{
+        text-align: center;
+        margin-left: 36px;
+       }
+       .nav_button{
+        padding: 10px 20px;
+       }
+       .nav_button:hover{
+        background-color: rgb(44, 44, 64);
+        color: white;
+       }
+       .closebtn:hover{
+        color: rgb(230, 10, 10);
+       }
+       .closebtn{
+        display: block;
+       }
+
+    .nav_bar_list {padding-top: 15px;}
+    .nav_bar_list li {font-size: 18px;}
+
+    
+
+
+  /* end toggle section */
+
 
     .banner_image {
         display: none;
@@ -632,14 +753,6 @@ header {
        flex-direction: column;
        align-items: center;
     }
-
-
-
-
-
-
-
-
 
 
 
