@@ -410,10 +410,6 @@ footer{
 .zigzag_lines_left{
     float: left;
 }
-.home{
-    display: flex;
-    gap: 15px;
-}
 .footer_social{
     display: flex;
     gap: 25px;
