@@ -567,10 +567,28 @@ header {
     text-align: center;
 }
 
-
-
-
-
+/* Discover The Neighborhoods */
+.discover_banner{
+    position: relative;
+    display: inline-block;
+     
+}
+.discover_img{
+    display: block;
+    width: 100%;
+    
+}
+ 
+.discover_text{
+    position: absolute;
+  top: 90%; 
+  left: 0;      
+  color: #fff; 
+ 
+}
+.discover_neighborhoods{
+    margin-bottom: 100px;
+}
 
 
 
