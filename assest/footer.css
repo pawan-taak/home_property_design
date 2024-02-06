@@ -44,7 +44,6 @@
     padding: 20px 0;
     
 }
-<<<<<<< HEAD
 .hovereffect{
     color: #B16642;    
     line-height: 178%; 
@@ -55,15 +54,6 @@
     text-decoration: underline;
     cursor: pointer;  
     font-weight:400 ;
-=======
- 
-.hovereffect:hover{
-    color: black;
-    font-size:20px ;
-    text-decoration: underline;    
-    font-weight:400 ;
-    cursor: pointer;
->>>>>>> b9f44214f88161c7a8dd50b763246a6315078cc5
   
 }
 .contact_withus{
@@ -151,15 +141,6 @@ button{
     border-radius: 5px;
     background-color: #3B3A5D;
 }
-<<<<<<< HEAD
-=======
-
-
-/* Footer Work End  */
-
-
-
->>>>>>> b9f44214f88161c7a8dd50b763246a6315078cc5
 .zigzag_lines_right{
 float: right;
 }

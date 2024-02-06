@@ -783,8 +783,6 @@ header {
        align-items: center;
     }
 
-<<<<<<< HEAD
-=======
     .customers_back_section{
         margin: 50px 0;
         padding: 50px 0;
@@ -816,7 +814,6 @@ header {
 
 
 
->>>>>>> b9f44214f88161c7a8dd50b763246a6315078cc5
     .footer_subscribe_section {
         display: flex;
         flex-direction: column;
