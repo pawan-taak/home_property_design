@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --primary_blue_color: #3B3A5D;
+    --secondary_orange_color: #B16642;
+    --secondary_blue_color: #0A0B3B;
+    --light_yellow_color: #FFBB50;
+    --white_color: #FFF;
+    --light_black_color: #757575;
+    --blue_color: #3B3A5E;
+
+}
+
+body {
+    font-family: 'Inter';
+    font-family: 'Kufam';
+    font-family: "Source Sans 3";
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 0;
+    margin: 0 auto;
+
+}
+
+.section {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 150;
+    margin: 0 auto
+}
+
+/*common classes */
+
+.h_primary {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+    /* 77.025px */
+}
+
+
+.h_secondary {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+    /* 53.325px */
+}
+
+.xxl_heading {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.xl_text {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118.5%;
+    /* 29.625px */
+}
+
+.xb_heading {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.5%;
+    /* 23.7px */
+}
+
+.sm_heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.5%;
+    /* 23.7px */
+}
+.back_ground_clr{
+    background-color: #F5F1EF;
+}
+.neighborhoods_section{
+    display: flex;
+    justify-content: center;
+}
+.clr{
+    color: var(--light_yellow_color);
+}
+.blog_clr{
+    color: var(--blue_color);
+    justify-content: center;
+    display: flex;
+}
+.f_family{
+    font-family: 'Kufam';
+    color: var(--blue_color);
+    padding: 16px;
+}
+.neighborhoods_image{
+    padding: 40px;
+}
+
+.n_family{
+    font-family: Kufam;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 586px;
+    width: 100%;
+}
+.btn_border{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 1px solid;
+    max-width: 243px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: none;
+}
+.btn_text{
+    padding: 23px 32px;
+}
