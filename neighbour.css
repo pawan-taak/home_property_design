@@ -152,3 +152,59 @@ body {
 .btn_text{
     padding: 23px 32px;
 }
+
+/* World wide */
+.client_heading{
+    display: flex;
+    justify-content: center;
+}
+.client_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding: 150px 0;
+}
+.upper_logo_scetion{
+   display: flex;
+   justify-content: space-between;
+}
+.logo_section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 42px 0;
+}
+.lower_logo_scetion{
+   display: flex;
+   justify-content: space-evenly;
+}
+.btn_world_wide{
+    display: flex;
+    justify-content: center;
+}
+.btn_text{
+    max-width: 197px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px   ;
+}
+.neighborhoods_bar{
+    margin: 100px 0 100px 0;
+    padding: 150px;
+}
+.btn_all{
+    max-width: 243px;
+    width: 100%;
+    border-color: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn_article{
+    padding: 23px 32px;
+    display: flex;
+    justify-content: space-between;
+}
