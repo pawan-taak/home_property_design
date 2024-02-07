@@ -65,7 +65,7 @@ body {
 }
 
 
-.h_secondary{
+.h_secondary {
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -73,14 +73,14 @@ body {
     /* 53.325px */
 }
 
-.xxl_heading{
+.xxl_heading {
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.xl_text{
+.xl_text {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -88,7 +88,7 @@ body {
     /* 29.625px */
 }
 
-.xb_heading{
+.xb_heading {
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -110,7 +110,8 @@ body {
 .toggle-btn {
     display: none;
 }
-.closebtn{
+
+.closebtn {
     display: none;
 }
 
@@ -345,14 +346,15 @@ header {
 }
 
 /* Properties Of Real Estate Industries */
-.real_state_property{
+.real_state_property {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     text-align: center;
 }
-.real_heading{
+
+.real_heading {
     max-width: 575px;
     width: 100%;
     margin-bottom: 60px;
@@ -464,7 +466,7 @@ header {
 }
 
 /* See How Can Help */
-.help_heading_section{
+.help_heading_section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -515,24 +517,27 @@ header {
 }
 
 /* What our customers say about us */
-.customer_heading{
+.customer_heading {
     max-width: 541px;
     width: 100%;
     margin-left: 49px;
 }
-.about_customers_section{
+
+.about_customers_section {
     display: flex;
     flex-direction: column;
     gap: 27px;
 }
-.customers_back_section{
+
+.customers_back_section {
     margin: 100px 0;
     background: #F3E8E2;
-   padding: 193px 0;
+    padding: 193px 0;
 }
-.customer_massage{
+
+.customer_massage {
     max-width: 460px;
-    width:100%;    
+    width: 100%;
     padding: 52px 46px 52px 46px;
     border-radius: 70px 70px 70px 0px;
     gap: 10px;
@@ -541,27 +546,31 @@ header {
     flex-direction: column;
     text-align: left;
 }
-.customer_name_card{
+
+.customer_name_card {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.all_customer_review{
+
+.all_customer_review {
     display: flex;
     gap: 40px;
     margin-left: 49px;
 }
-.between_text{
+
+.between_text {
     color: #A7542A;
 }
-.blue_text{
+
+.blue_text {
     color: #0e0b64;
 }
- 
+
 /* 
  Customer satisfaction and property sale */
 
-.customer_satisfaction{
+.customer_satisfaction {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
@@ -569,25 +578,27 @@ header {
 }
 
 /* Discover The Neighborhoods */
-.discover_banner{
+.discover_banner {
     position: relative;
     display: inline-block;
-     
+
 }
-.discover_img{
+
+.discover_img {
     display: block;
     width: 100%;
-    
+
 }
- 
-.discover_text{
+
+.discover_text {
     position: absolute;
-  top: 90%; 
-  left: 0;      
-  color: #fff; 
- 
+    top: 90%;
+    left: 0;
+    color: #fff;
+
 }
-.discover_neighborhoods{
+
+.discover_neighborhoods {
     margin-bottom: 100px;
 }
 
@@ -629,14 +640,14 @@ header {
     /* header section */
 
     /* toggle section */
-          
+
     .nav_bar_list {
         position: absolute;
         height: 100%;
-        width: 0;    
+        width: 0;
         top: 0;
         right: 0;
-        background-color:white;
+        background-color: white;
         overflow-x: hidden;
         transition: 0.5s;
         z-index: 1050;
@@ -644,67 +655,79 @@ header {
         list-style: none;
         display: flex;
         flex-direction: column;
-      }
-      
-      .nav_bar_list li{
-        text-align: center;  
+    }
+
+    .nav_bar_list li {
+        text-align: center;
         padding-bottom: 8px;
         padding-top: 8px;
         text-decoration: none;
         /* font-size: 30px; */
-        color:black;
+        color: black;
         display: block;
         transition: 0.3s;
         list-style: none;
-      }
-      .nav_bar_title{
+    }
+
+    .nav_bar_title {
         display: flex;
         flex-direction: column;
-         
-      }
-      
-      .nav_bar_list li:hover {
-        color:var(--secondary_orange_color);
-      }
-      
-      .nav_bar_list .closebtn {
+
+    }
+
+    .nav_bar_list li:hover {
+        color: var(--secondary_orange_color);
+    }
+
+    .nav_bar_list .closebtn {
         position: absolute;
         top: 0;
         right: 25px;
         font-size: 36px;
         margin-left: 50px;
-      }
-       #toggleButton{       
-       
+    }
+
+    #toggleButton {
+
         float: right;
         display: block;
-        
-       }
-       .button_class{
+
+    }
+
+    .button_class {
         text-align: center;
         margin-left: 36px;
-       }
-       .nav_button{
+    }
+
+    .nav_button {
         padding: 10px 20px;
-       }
-       .nav_button:hover{
+    }
+
+    .nav_button:hover {
         background-color: rgb(44, 44, 64);
         color: white;
-       }
-       .closebtn:hover{
+    }
+
+    .closebtn:hover {
         color: rgb(230, 10, 10);
-       }
-       .closebtn{
+    }
+
+    .closebtn {
         display: block;
-       }
+    }
 
-    .nav_bar_list {padding-top: 15px;}
-    .nav_bar_list li {font-size: 18px;}
+    .nav_bar_list {
+        padding-top: 15px;
+    }
 
-    
+    .nav_bar_list li {
+        font-size: 18px;
+    }
 
 
-  /* end toggle section */
+
+
+    /* end toggle section */
 
 
     .banner_image {
@@ -774,20 +797,21 @@ header {
 
     .all_help_card {
         display: flex;
-       flex-direction: column;
-       align-items: center;
-    }
-    .bottom_help_section {
-        display: flex;
-       flex-direction: column;
-       align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .customers_back_section{
+    .bottom_help_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customers_back_section {
         margin: 50px 0;
         padding: 50px 0;
     }
-  
+
     .all_customer_review {
         display: flex;
         flex-direction: column;
@@ -801,7 +825,7 @@ header {
         grid-template-rows: auto auto;
         row-gap: 30px;
         justify-content: space-around;
-    
+
     }
 
 
